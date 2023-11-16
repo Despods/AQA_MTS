@@ -79,7 +79,7 @@ using System.Numerics;
             Console.WriteLine("Деняк не дали :(");
         }
     */
-
+    /*
     int x = 10;
     int y = 20;
     int z;
@@ -95,10 +95,48 @@ using System.Numerics;
     var z1 = x < y ? (x + y) : (x - y);
     Console.WriteLine(z);
     Console.WriteLine(z1);
+    */
+    /*
+    int x = 1;
+    switch (x)
+    {
+        case 1:
+            Console.WriteLine("1");
+            break;
+        case 2:
+            Console.WriteLine("2");
+            break;
+       default:
+            Console.WriteLine("Отрицательно");
+            break;
+    }
+    */
+    string name = "Tom";
+    switch (name)
+    {
+        case "Alex":
+            Console.WriteLine("Alex");
+            break;
+        case "Tom":
+            Console.WriteLine("Tom");
+            break;
+    }
 
+    int DoOperation(int x)
 
+    {
+        switch (x)
+        {
+            case 1:
+                return 1;
+            case 2:
+                return 2;
+            default: 
+                return 0;
 
-
+        }
+    }
+    Console.WriteLine(DoOperation(2));
 
 }
 

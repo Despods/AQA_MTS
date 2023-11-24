@@ -1,9 +1,8 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
 public class FirstTask
 {
-	public static void Main1()
+    public static void Main1()
     {
         /*
         UseCase:

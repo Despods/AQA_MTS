@@ -1,6 +1,4 @@
-﻿using System;
-
-public class SecondTask
+﻿public class SecondTask
 {
     public static void Main1()
     {

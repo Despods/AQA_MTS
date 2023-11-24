@@ -17,19 +17,19 @@ public class FirstTask
         float secondNumber;
         string operetion;
 
-        Console.WriteLine("Введите первое число: ");
+        Console.WriteLine("Введите первое число: "); //Получаем 1 число от пользователя
         string? firstNumberString = Console.ReadLine();
 
-        Console.WriteLine("Введите операцию (+, -, /, *): ");
+        Console.WriteLine("Введите операцию (+, -, /, *): "); //Получаем тип операции от пользователя
         string? operation = Console.ReadLine();
 
-        Console.WriteLine("Введите второе число: ");
+        Console.WriteLine("Введите второе число: "); //Получаем 2 число от пользователя
         string? secondNumberString = Console.ReadLine();
 
-        firstNumber = float.Parse(firstNumberString, CultureInfo.InvariantCulture);
+        firstNumber = float.Parse(firstNumberString, CultureInfo.InvariantCulture); //Парсим строку в флоат
         secondNumber = float.Parse(secondNumberString, CultureInfo.InvariantCulture);
 
-        switch (operation)
+        switch (operation) //Выбираем тип операции пользователя и производим вычисления
         {
             case "+":
                 Console.WriteLine($"Результат операции: {firstNumber + secondNumber}");

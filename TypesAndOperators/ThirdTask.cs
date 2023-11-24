@@ -1,6 +1,6 @@
 ﻿public class ThirtdTask
 {
-    public static void Main()
+    public static void Main1()
     {
         /*
         Напишите программу русско-английский переводчик.
@@ -11,11 +11,11 @@
         Console.WriteLine("Введите слово о погоде на русском, чтобы получить перевод на английский.");
         Console.WriteLine("Пока что я начинающий переводчик и знаю всего 10 слов");
         Console.WriteLine("Доступные слова для перевода: Солнце, Небо, Зима, Весна, Лето, Осень, Дождь, Снег, Холод, Тепло");
-        string russianWord = Console.ReadLine();
+        string russianWord = Console.ReadLine(); //Получаем слово от пользователя
 
-        russianWord = russianWord.ToLower();
+        russianWord = russianWord.ToLower(); //Переводим слово в нижний регистр для простоты поиска
 
-        switch (russianWord)
+        switch (russianWord) //ищем перевод слова введенного пользователем
         {
             case "солнце":
                 Console.WriteLine("Перевод на английский: Sun");

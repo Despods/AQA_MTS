@@ -2,7 +2,7 @@
 
 public class Task1
 {
-	static void Main()
+	static void Main1()
 	{
 		/*
 		Создайте массив целых чисел. 

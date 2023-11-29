@@ -1,6 +1,6 @@
 ﻿public class Task3
 {
-    public static void Main()
+    public static void Main1()
     {
         /*
 		Создайте и заполните массив случайным числами и выведете максимальное, минимальное и среднее значение.

@@ -2,7 +2,7 @@
 
 public class Task2
 {
-	public static void Main()
+	public static void Main1()
 	{
 		/*
 		Создайте массив целых чисел. Удалите все вхождения заданного числа из массива.

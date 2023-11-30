@@ -1,6 +1,6 @@
 ﻿public class Task4
 {
-    public static void Main()
+    public static void Main1()
     {
         /*
 		Создайте 2 массива из 5 чисел.

@@ -19,7 +19,5 @@
         {
             Console.WriteLine($"Число '{numberFind}' не входит в массив!");
         }
-
-
     }
 }

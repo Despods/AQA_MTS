@@ -12,6 +12,21 @@
         int[] arrays1 = new int[5];
         int[] arrays2 = new int[5];
 
+        //сравниваем средее арифметическое массивовй и выводим результат
+        if (averageArrays(arrays1) == averageArrays(arrays2))
+        {
+            Console.WriteLine("Среднее арифметическое двух массивов равно");
+        }
+        else if (averageArrays(arrays1) > averageArrays(arrays2))
+        {
+            Console.WriteLine("Среднее арифметическое первого массива больше чем второго");
+        }
+        else
+        {
+            Console.WriteLine("Среднее арифметическое второго массива больше чем первого");
+
+        }
+
         static void insertArray(int[] arrays) //метод для заполнения массива рандом значениями
         {
             for (int i = 0; i < arrays.Length; i++)
@@ -48,20 +63,5 @@
         //выводим среднее арифметическое значение массивов
         Console.WriteLine($"Среднее арифметическое первого массива: {averageArrays(arrays1)}");
         Console.WriteLine($"Среднее арифметическое второго массива: {averageArrays(arrays2)}");
-
-        //сравниваем средее арифметическое массивовй и выводим результат
-        if (averageArrays(arrays1) == averageArrays(arrays2))
-        {
-            Console.WriteLine("Среднее арифметическое двух массивов равно");
-        }
-        else if (averageArrays(arrays1) > averageArrays(arrays2))
-        {
-            Console.WriteLine("Среднее арифметическое первого массива больше чем второго");
-        }
-        else
-        {
-            Console.WriteLine("Среднее арифметическое второго массива больше чем первого");
-
-        }
     }
 }

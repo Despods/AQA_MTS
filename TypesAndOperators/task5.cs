@@ -11,6 +11,7 @@
         Console.WriteLine("Введите размер массива: ");
         int arraySize = Convert.ToInt32(Console.ReadLine());//получаем от пользователя число для размера массива
         bool flag;//булевый флаг для отслеживания выполнения условия
+
         do
         {
             if (arraySize > 5 && arraySize < 10)
@@ -28,6 +29,7 @@
 
         int[] arrays = new int[arraySize];//создаем массив
         int counter = 0;//переменная для подсчета четных значений
+
         for (int i = 0; i < arrays.Length; i++)//заполняем значениями от 0 до 9
         {
             arrays[i] = new Random().Next(0, 10);
@@ -39,6 +41,7 @@
         {
             int index = 0;//перемсенная для подсета индекса во 2 массиве
             int[] array2 = new int[counter];
+
             for (int i = 0; i < arrays.Length; i++)//бежим по массиву, если число четное добавляем его во 2 массив
             {
                 if (arrays[i] % 2 == 0)

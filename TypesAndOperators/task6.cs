@@ -9,6 +9,7 @@
          Cнова выведете массив на экран на отдельной строке.
         */
         int[] arrays = new int[new Random().Next(0, 11)];//создаем массив размерностью от 0 до 10
+
         for (int i = 0; i < arrays.Length; i++)//заполняем значениями от 1 до 9
         {
             arrays[i] = new Random().Next(1, 10);

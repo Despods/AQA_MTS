@@ -16,27 +16,27 @@
         }
         public void AddMoney(int money)//метод для пополнения карты
         {
-            Console.WriteLine($"Лицевой счет: {this.accountNumber}");
+            Console.WriteLine($"Лицевой счет: {accountNumber}");
             this.currentBalance += money;
             Console.WriteLine($"На ваш счет было зачислено: {money} рублей.");
             Console.WriteLine($"Текущий остаток {currentBalance} рублей.\n");
         }
         public void DelMoney(int money)//метод для списания средств, с проверкой на достаточность
         {
-            Console.WriteLine($"Лицевой счет: {this.accountNumber}");
-            if(money > this.currentBalance)
+            Console.WriteLine($"Лицевой счет: {accountNumber}");
+            if(money > currentBalance)
                 Console.WriteLine("На счете недостаточно средств\n");
             else
             {
-                this.currentBalance -= money;
+                currentBalance -= money;
                 Console.WriteLine($"С вашего счета было списано: {money} рублей.");
                 Console.WriteLine($"Текущий остаток {currentBalance} рублей.\n");
             }
         }
         public void CreditCardInformation()//метод для вывода информации о карточке
         {
-            Console.WriteLine($"Номер лицевого счета: {this.accountNumber}") ;
-            Console.WriteLine($"Текущий баланс: {this.currentBalance}\n") ;
+            Console.WriteLine($"Номер лицевого счета: {accountNumber}") ;
+            Console.WriteLine($"Текущий баланс: {currentBalance}\n") ;
         }
     }
 }

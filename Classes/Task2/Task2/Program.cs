@@ -33,6 +33,5 @@ namespace Task2
             mir.CreditCardInformation();
             mastercard.CreditCardInformation();
         }
-
     }
 }

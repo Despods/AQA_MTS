@@ -37,7 +37,6 @@
         {
             Console.WriteLine($"Номер лицевого счета: {this.accountNumber}") ;
             Console.WriteLine($"Текущий баланс: {this.currentBalance}\n") ;
-            
         }
     }
 }

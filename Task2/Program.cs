@@ -63,7 +63,7 @@ internal class Program
                 case 3:
                     Console.Clear();
                     Console.WriteLine("Поиск товара по идентификатору");
-                    Console.WriteLine("Введите идентификатор товара для поиска:");
+                    Console.WriteLine("Введите ИД товара для поиска:");
                     int searchId = Convert.ToInt32(Console.ReadLine());
 
                     if (products.ContainsKey(searchId))
@@ -79,7 +79,7 @@ internal class Program
                 case 4:
                     Console.Clear();
                     Console.WriteLine("Обновление информации о товаре");
-                    Console.WriteLine("Введите идентификатор товара, который хотите изменить");
+                    Console.WriteLine("Введите ИД товара, который хотите изменить");
                     int idForChangeProduct = Convert.ToInt32(Console.ReadLine());
                     if (products.ContainsKey(idForChangeProduct))
                     {
@@ -101,7 +101,7 @@ internal class Program
                 case 5:
                     Console.Clear();
                     Console.WriteLine("Удаление товара");
-                    Console.WriteLine("Введите идентификатор товара для удаления");
+                    Console.WriteLine("Введите ИД товара для удаления");
                     int idForDeleteProduct = Convert.ToInt32(Console.ReadLine());
 
                     if (products.ContainsKey(idForDeleteProduct))

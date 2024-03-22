@@ -1,9 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.8.34408.163
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqHomeWork", "LinqHomeWork\LinqHomeWork.csproj", "{461A32EA-C914-4901-BEF1-8DDED693C5B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitProject", "NUnitProject\NUnitProject.csproj", "{5F0B7E8B-B530-42DC-9607-E9259D8C6FD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{461A32EA-C914-4901-BEF1-8DDED693C5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{461A32EA-C914-4901-BEF1-8DDED693C5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{461A32EA-C914-4901-BEF1-8DDED693C5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{461A32EA-C914-4901-BEF1-8DDED693C5B1}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BFA548AE-604A-4E37-BEF3-424A5059C9DA}
+		{5F0B7E8B-B530-42DC-9607-E9259D8C6FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0B7E8B-B530-42DC-9607-E9259D8C6FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0B7E8B-B530-42DC-9607-E9259D8C6FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0B7E8B-B530-42DC-9607-E9259D8C6FD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
